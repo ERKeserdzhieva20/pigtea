@@ -1,7 +1,7 @@
 <h1 align = "center"> COOKING BOOK APP </h1>
 
 <p align="center">
-  <img src = "https://github.com/MIKafedzhiev20/KOH-Project/blob/main/KOH/assets/logo/logo.png" alt="logo" />
+  <img src = "https://github.com/ERKeserdzhieva20/pigtea/blob/main/pigtea/assets/food.png" alt="logo" />
 </p><br>
 
 
