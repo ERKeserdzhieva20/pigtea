@@ -41,9 +41,9 @@ class Menu extends StatelessWidget {
       appBar: AppBar(
         title: const Text(
           'Pigtea',
-          style: TextStyle(fontSize: 30.0, color: Color.fromARGB(255, 47, 28, 37)),
+          style: TextStyle(fontSize: 30.0, color: Color.fromARGB(255, 215, 215, 215)),
         ),
-        backgroundColor: Color.fromARGB(255, 175, 175, 175),
+        backgroundColor: Color.fromARGB(255, 66, 66, 66),
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(16.0),
@@ -183,7 +183,7 @@ class MainDishes extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Main Dishes', style: TextStyle(fontSize: 30.0, color: Color.fromARGB(255, 47, 28, 37)),), backgroundColor: Color.fromARGB(255, 175, 175, 175),),
+      appBar: AppBar(title: const Text('Main Dishes', style: TextStyle(fontSize: 30.0, color: Color.fromARGB(255, 215, 215, 215)),), backgroundColor: Color.fromARGB(255, 66, 66, 66),),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(16.0),
         child: Center(
@@ -473,7 +473,7 @@ class SideDishes extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Side Dishes', style: TextStyle(fontSize: 30.0, color: Color.fromARGB(255, 47, 28, 37)),), backgroundColor: Color.fromARGB(255, 175, 175, 175),),
+      appBar: AppBar(title: const Text('Side Dishes', style: TextStyle(fontSize: 30.0, color: Color.fromARGB(255, 215, 215, 215)),), backgroundColor: Color.fromARGB(255, 66, 66, 66),),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(16.0),
         child: Center(
@@ -765,7 +765,7 @@ class Deserts extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Deserts', style: TextStyle(fontSize: 30.0, color: Color.fromARGB(255, 47, 28, 37)),), backgroundColor: Color.fromARGB(255, 175, 175, 175),),
+      appBar: AppBar(title: const Text('Deserts', style: TextStyle(fontSize: 30.0, color: Color.fromARGB(255, 215, 215, 215)),), backgroundColor: Color.fromARGB(255, 66, 66, 66),),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(16.0),
         child: Center(
@@ -1057,7 +1057,7 @@ class Drinks extends StatelessWidget {
     @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Drinks', style: TextStyle(fontSize: 30.0, color: Color.fromARGB(255, 47, 28, 37)),), backgroundColor: Color.fromARGB(255, 175, 175, 175),),
+      appBar: AppBar(title: const Text('Drinks', style: TextStyle(fontSize: 30.0, color: Color.fromARGB(255, 215, 215, 215)),), backgroundColor: Color.fromARGB(255, 66, 66, 66),),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(16.0),
         child: Center(
@@ -1348,7 +1348,7 @@ class Recipes extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Recipes', style: TextStyle(fontSize: 30.0, color: Color.fromARGB(255, 47, 28, 37)),), backgroundColor: Color.fromARGB(255, 175, 175, 175),),
+      appBar: AppBar(title: const Text('Recipes', style: TextStyle(fontSize: 30.0, color: Color.fromARGB(255, 215, 215, 215)),), backgroundColor: Color.fromARGB(255, 66, 66, 66),),
       body: Padding(
         padding: EdgeInsets.symmetric(horizontal: 16.0), // Adjust the horizontal padding as needed
         child: SingleChildScrollView(
